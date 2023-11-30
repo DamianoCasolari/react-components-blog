@@ -16,8 +16,8 @@ function App() {
       <div className='WebPage'>
         <AppHeader />
         <main className='vh100-header-footer flex items-center justify-center'>
-          <div className="card h-72 w-9/12 md:w-6/12 bg-black rounded-2xl">
-
+          <div className="card flex items-center justify-center h-72 w-9/12 md:w-6/12 bg-black rounded-2xl text-slate-50">
+            <h2 className='text-[50px]'>{count}</h2>
           </div>
         </main>
         <AppFooter />
